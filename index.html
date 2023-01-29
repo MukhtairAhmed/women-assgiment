@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,900&family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
+    
+<style>
+
+    *{
+margin: 0;
+padding: 0;
+outline: none;
+border: none;
+text-decoration: none;
+list-style: none;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+span{
+color: #ff4d05;
+}
+
+html{
+	overflow-x:hidden;
+    font-size: 62%;
+    scroll-behavior: smooth;
+}
+
+
+:root{
+--bg-color:#2a2a2a;
+--second-bg:#202020;
+--main-color:#ff4d05;
+--p-font:1.1rem;    
+}
+
+
+header{
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	height: 100px;
+	padding: 40px 5%;
+    box-shadow: 2px 2px 30px rgb(0,0,00.1);
+}
+
+
+header .logo {
+	position: relative;
+	padding: 0rem;
+	font-size: 3rem;
+	font-weight: bold;
+	color: black;
+}
+
+
+.menu{
+flex: 1 2 300;
+flex-wrap: wrap;
+}
+
+
+header ul{
+	list-style: none;
+}
+
+
+header ul li {
+	float: left;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 1rem;
+	position: relative;
+	top: 4px;
+	color: black;
+}
+
+
+header a{
+color: black;
+}
+
+
+
+header .icon{
+display: none;
+}
+
+
+
+.content{
+background: url(women.jpg)no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: top center;
+width: 100%;
+align-items: center;
+text-align: center;
+justify-content: center;
+display: flex;
+}
+
+
+
+
+.content .text .content-text {
+position: relative;
+top: -10rem;
+}
+
+
+.content .text .content-text h1 {
+	font-size: 2.6rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.content .text .content-text h2 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+
+.content .text .content-text p {
+	font-size: 1.2rem;
+	font-weight: 400;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 1rem 0;
+color: black;
+}
+
+.content .text .content-text p{
+	color: #fff;
+}
+
+
+.content .text .content-text .ctn {
+	padding: 0.7rem 3.3rem;
+	background: #ff4d05;
+	font-weight: bold;
+	margin: 2rem;
+	 color:  black;
+	position: relative;
+	top: 2rem;
+}
+
+
+.content .text .content-text .ctn:hover {
+background: transparent;
+border: 1px solid #ff004f;
+transition: all 2.s;
+color: #fff;
+}
+
+
+
+.text {
+	text-align: center;
+	font-weight: bold;
+	padding: 1.5rem 0rem;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+
+.text p {
+font-size: 1.2rem;
+color: #ff4d05;
+}
+
+
+.text h1{
+font-size: 2.5rem;
+color: #fff;
+}
+
+
+
+.col{
+background: #202020;
+height: auto;
+}
+
+
+
+.col .rapper{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content:center;
+}
+
+
+
+
+.col .rapper .box{
+background: #fff;
+width: 250px;
+height: 300px;
+padding: 2rem;
+margin: 2rem;
+}
+
+
+.col .rapper .box #you {
+	font-size: 2.5rem;
+	position: relative;
+	top: 1rem;
+}
+
+.col .rapper .box h2 {
+	font-size: 2rem;
+	position: relative;
+	top: 2rem;
+}
+
+
+.col .rapper .box p {
+	position: relative;
+	top: 2rem;
+	line-height: 17px;
+}
+
+
+
+.col .rapper .box .ctn {
+	background: #ff004f;
+	position: relative;
+	top: 4rem;
+	padding: 0.6rem 3rem;
+	text-align: center;
+	color: aliceblue;
+}
+
+
+.col .rapper .box .ctn:hover{
+background: transparent;
+border: 1px solid black;
+transition: all 2.s;
+color: black;
+}
+
+
+
+.row{
+background: #2a2a2a;
+height: auto;
+}
+
+
+.row .rapper{
+	display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content:center;
+}
+
+
+.row .rapper .box{
+padding: 0rem;
+margin: 2rem;
+width: 250px;
+height: 250px;
+}
+
+
+
+.row .rapper .box img{
+width: 100%;
+height: auto;
+}
+
+
+
+.row .rapper .box .layer {
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	top: -19rem;
+	background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+ flex-direction: column;
+ transition: max-height 2.s;
+ align-items: center;
+   display: none;
+}
+
+
+.row .rapper .box .layer #right {
+	font-size: 25px;
+	position: relative;
+	top: 3rem;
+	color: #fff;
+}
+
+
+
+.row .rapper .box .layer h1 {
+	font-size: 2rem;
+	position: relative;
+	top: 3.7rem;
+	display: block;
+	color: #fff;
+}
+
+
+
+.row .rapper .box .layer p {
+	position: relative;
+	top: 4rem;
+	line-height: 19px;
+	color: #fff;
+}
+
+
+.row .rapper .box .layer .ctn {
+	padding: 0.7rem 4rem;
+	background:black;
+	position: relative;
+	top: 6rem;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+.row .rapper .box .layer .ctn:hover{
+background: transparent;
+border: 1px solid #312f30;
+transition: all 2.s;
+}
+
+
+.row .rapper .box:hover .layer{
+display: block;
+height: 100%;
+}
+
+
+.rows{
+background: #202020;
+height:auto;
+
+}
+
+.rows {
+	background: #202020;
+	height: auto;
+	display: flex;
+	align-items: flex-end;
+	padding: 3rem 4rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+
+}
+
+.rows .imgbx {
+	position: relative;
+	display: flex;
+	flex: 1 2 35rem;
+	flex-wrap: wrap;
+}
+
+.rows .imgbx img {
+	width: 35rem;
+	height: 42rem;
+	display: flex;
+}
+
+
+.rows .imgbx .main-text{
+position: relative;
+
+}
+
+.main-text {
+position: absolute;
+left: 45rem;
+float: right;
+}
+
+
+
+.main-text h1 {
+	position: relative;
+	top: -11rem;
+	font-size: 3rem;
+}
+
+
+
+.main-text h2 {
+	font-size: 3rem;
+	position: relative;
+	top: -108px;
+}
+
+
+.main-text p {
+	position: relative;
+	top: -10rem;
+width: 86%;
+	line-height: 18px;
+}
+
+
+
+.main-text .ctn {
+	position: relative;
+	background: aliceblue;
+	padding: 0.8rem 3rem;
+	top: -7rem;
+}
+
+
+
+.clock {
+	background: #2a2a2a;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(30rem,auto));
+	grid-gap: 8rem;
+	position: relative;
+}
+
+
+
+.clock .clocks {
+	position: relative;
+	left: 5rem;
+	top: 4rem;
+	line-height: -41px;
+}
+
+
+.clock .clocks h1 {
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	position: relative;
+    top: -1.4rem;
+}
+
+
+.clock .clocks h4 {
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	top: -0.3rem;
+	color: #fff;
+}
+
+.clock .clocks p {
+font-size: 9px;
+font-weight: bolder;
+position: relative;
+top: 5px;
+color: #fff;
+}
+
+
+.clock .clocks .list {
+	position: relative;
+	display: grid;
+	top: 1.3rem;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.clock .clocks .list strong {
+	position: relative;
+	line-height: 22px;
+	display: block;
+}
+
+
+
+.clock .clocks .social {
+	display: flex;
+	position: relative;
+	z-index: 333;
+    cursor: pointer;
+	top: 3rem;
+}
+
+
+
+.clock .clocks .social i {
+	width: 30px;
+	height: 30px;
+	background: #312f30;
+	color: #fff;
+	margin: 6px;
+	position: relative;
+	left: -8px;
+	padding-top: 7px;
+	font-size: 16px;
+	padding-left: 6px;
+	border-radius: 0.7rem;
+}
+
+.clock .clocks .social i:hover:nth-child(1){
+	background:blue;
+}
+
+
+.clock .clocks .social i:hover:nth-child(2){
+	background: red;
+}
+
+
+.clock .clocks .social i:hover:nth-child(3){
+	background: rgb(48, 48, 145);
+}
+
+
+.clock .clocks .social i:hover:nth-child(4){
+	background: #ff004f;
+}
+
+.clock .clocks .social i:hover{
+	background: #fff;
+	color: black;
+}
+
+.form-center {
+	position: relative;
+	top: 4rem;
+	display: flex;
+	z-index: 2;
+	white-space: break-spaces;
+	
+
+}
+
+
+
+.form-center form {
+	width: 100%;
+	height: 400px;
+	border-radius: 1rem;
+	display: flow-root;
+	line-height: 7px;
+	
+}
+
+.form-center form input {
+	width: 80%;
+	height: 34px;
+	text-align: center;
+	background:#312f30;
+	border: none;
+	outline: none;
+	color: #fff;
+margin: 0px -12px;
+}
+
+
+
+
+
+.form-center form textarea{
+	width: 80%;
+	height: 20vh;
+	background: #312f30;
+    margin: 1px -12px;
+}
+
+
+.form-center form .ctn {
+	background: #312f30;
+	padding: 0.8rem 3rem;
+	position: relative;
+	left: -8px;
+	top: 3rem;
+	color: black;
+}
+
+
+
+.form-center form .ctn:hover{
+background: #fff;
+border: 1px solid #bbb8b7;
+transition: all 4.s;
+}
+
+
+.form-center form ::placeholder{
+text-transform: uppercase;
+color: #fff;
+text-align: center;
+}
+
+
+
+footer .footer-text{
+font-weight: bold;
+color: #fff;
+display: block;
+}
+
+footer {
+	background: #202020;
+	height: 15vh;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+
+
+
+footer .footer-text h1 {
+	position: absolute;
+	left: 0;
+	text-transform: capitalize;
+    padding-top: 23px;
+	flex-wrap: wrap;
+text-align: center;
+    width: 100%;margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* laptop size media quries */
+
+@media(max-width:1100px){
+
+body{
+overflow-x: hidden;
+}
+
+
+.content {
+	height: 54vh;
+	position: relative;
+	width: 100%;
+
+}
+
+.content .text .content-text {
+	position: relative;
+	top: -3rem;
+	width: 100%;
+}
+
+.content .text .content-text .ctn {
+	padding: 0.7rem 3rem;
+	background: #ff4d05;
+	font-weight: 800;
+	margin: 2rem;
+	position: relative;
+	top: 2rem;
+	color: black;
+}
+
+
+
+
+.rows .imgbx img{
+width: 100%;
+}
+
+
+
+.rows .main-text {
+	position: revert;
+	order: -1;
+	width: 100%;
+	display: flow-root;
+}
+
+}
+
+
+
+
+
+
+
+
+/* mobile size media quries */
+@media(max-width:650px){
+
+
+body{
+	overflow-x: hidden;
+}
+ul li{
+	display: none;
+}
+
+header .icon{
+display: block;
+font-size: 22px;
+cursor: pointer;
+}
+
+.content .text .content-text .ctn {
+	padding: 0.8rem 3rem;
+	background: #ff4d05;
+	font-weight: bold;
+	margin: 2rem;
+	position: relative;
+	top: 2rem;
+}
+
+.content {
+	background-position: right;
+	width: 100%;
+	height: 50vh;
+}
+
+.content .text .content-text {
+	position: relative;
+	top: -3rem;
+}
+
+.main-text {
+	position: revert;
+	order: -1;
+	width: 100%;
+	padding-top: 130px;
+}
+
+.rows .imgbx img {
+	width: 100%;
+	position: relative;
+	top: -1rem;
+}
+
+.rows{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+
+
+}
+
+
+/*  */
+
+@media(max-width:480px){
+
+.rows .main-text p{
+position: relative;
+width: 100%;
+}
+
+}
+
+
+
+</style>
+</head>
+<body>
+<!-- header-start -->
+<header>
+    <a href="" class="logo">Cod<span>e</span>r.</a>
+
+    <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Price</a></li>
+        </ul>
+
+
+    <div class="icon">
+    <i  class="fas fa-outdent"></i>
+	</div>
+	
+</header>    
+
+<!-- header-end -->
+
+<!-- content-start -->
+
+<div class="content">
+	<div class="text">
+		<div class="content-text">
+			<h1>Hello <span>Im</span></h1>
+			<h2>Mustakin <br>Ul / Ux Desginer</h2>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, Lorem ipsum dolor sit adipisicing elit. Alias perspiciatis minus <br> perspiciatis minus repellendus nihil voluptatibus autem.</p>
+			<a href="" class="ctn">Explore</a><a href="" class="ctn">Explore</a>
+		</div>
+	</div>
+</div>
+
+<!-- content-end -->
+
+<!-- col-start -->
+<section class="col">
+<div class="text">
+	<p>What is Expert In</p>
+	<h1>My Service</h1>
+</div>
+
+<div class="rapper">
+<div class="box">
+<i id="you" class="fa-solid fa-user-secret"></i>
+<h2>My Service</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt consectetur adipisicing elit Aperiam, natus sequi. Provident eligendi perferendis nesciunt Aperiam, natus sequi. Provident eligendi perferendis nesciunt.</p>	
+<a href="" class="ctn">Explore</a>
+</div>
+
+
+<div class="box">
+<i id="you" class="fa-solid fa-bath"></i>
+<h2>My Service</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequiLorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt Aperiam, natus sequi. Provident eligendi perferendis nesciu nesciunt.</p>	
+<a href="" class="ctn">Explore</a>
+</div>
+	
+
+
+
+<div class="box">
+<i id="you" class="fa-solid fa-code"></i>
+<h2>My Service</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciuntLorem ipsum dolor sit amet consectetur adipisicing elit Aperiam, natus sequi. Provident eligendi perferendis nesciunt Aperiam, natus sequi Provident eligendi perferendis nesciunt.</p>	
+<a href="" class="ctn">Explore</a>
+</div>
+
+
+<div class="box">
+<i id="you" class="fa-solid fa-microchip"></i>
+<h2>My Service</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Aperiam, natus sequi Provident eligendi perferendis nesciunt Aperiam, natus sequi. Provident eligendi perferendis nesciunt Aperiam, natus sequi Provident eligendi perferendis nesciunt.</p>	
+<a href="" class="ctn">Explore</a>
+</div>
+
+	
+
+<div class="box">
+<i id="you" class="fa-solid fa-bars-staggered"></i>
+<h2>My Service</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt Aperiam, natus sequi Provident eligendi perferendis nesciunt.</p>	
+<a href="" class="ctn">Explore</a>
+</div>
+	
+
+
+<div class="box">
+<i id="you" class="fa-solid fa-gears"></i>
+<h2>My Service</h2>
+<p>Lorem ipsum  consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciuntLorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciuntLorem ipsum d.</p>	
+<a href="" class="ctn">Explore</a>
+</div>
+
+	
+
+<div class="box">
+<i id="you" class="fa-solid fa-keyboard"></i>
+<h2>My Service</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt.</p>	
+<a href="" class="ctn">Explore</a>
+</div>
+		
+
+
+<div class="box">
+<i id="you" class="fa-solid fa-shield"></i>
+<h2>My Service</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, natus sequi. Provident eligendi perferendis nesciunt eligendi perferendis nesci.</p>	
+<a href="" class="ctn">Explore</a>
+</div>
+			
+</div>
+
+</section>
+
+
+<!--col-end  -->
+
+<!-- row-start -->
+<section class="row">
+<div class="text">
+<p>What is Expert In</p>
+<h1>My Service</h1>
+</div>
+
+<div class="rapper">
+<div class="box">
+<img src="./img1.jpg" alt="">
+<div class="layer">
+	<i id="right" class="fa-solid fa-pen-nib"></i>
+<h1>My Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit consectetur adipisicing elit. Blanditiis, impedit?</p>
+<a href="" class="ctn">Explore</a>
+</div>
+</div>
+
+
+<div class="box">
+<img src="./img2.jpg" alt="">
+<div class="layer">
+	<i id="right" class="fa-solid fa-magnifying-glass"></i>
+<h1>My Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit consectetur adipisicing elit. Blanditiis, impedit?</p>
+<a href="" class="ctn">Explore</a>
+</div>
+</div>
+
+
+<div class="box">
+<img src="./img3.jpg" alt="">
+<div class="layer">
+<i id="right" class="fa-solid fa-face-smile"></i>
+<h1>My Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit consectetur adipisicing elit. Blanditiis, impedit?</p>
+<a href="" class="ctn">Explore</a>
+</div>
+</div>
+	
+	
+<div class="box">
+<img src="./img4.jpg" alt="">
+<div class="layer">
+		<i id="right" class="fa-solid fa-cart-shopping"></i>
+<h1>My Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit consectetur adipisicing elit. Blanditiis, impedit?</p>
+<a href="" class="ctn">Explore</a>
+</div>
+</div>
+		
+		
+		
+		
+			
+<div class="box">
+<img src="./img5.jpg" alt="">
+<div class="layer">
+<i id="right" class="fa-solid fa-bell"></i>
+<h1>My Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit consectetur adipisicing elit. Blanditiis, impedit?</p>
+<a href="" class="ctn">Explore</a>
+</div>
+</div>
+	
+	
+	
+	
+
+
+
+<div class="box">
+<img src="./img6.jpg" alt="">
+<div class="layer">
+<i id="right"class="fa-solid fa-eye"></i>
+<h1>My Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit consectetur adipisicing elit. Blanditiis, impedit?</p>
+<a href="" class="ctn">Explore</a>
+</div>
+</div>
+	
+	
+	
+<div class="box">
+<img src="./img6.jpg" alt="">
+<div class="layer">
+<i id="right" class="fa-solid fa-eye-slash"></i>
+<h1>My Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit consectetur adipisicing elit. Blanditiis, impedit?</p>
+<a href="" class="ctn">Explore</a>
+</div>
+</div>
+	
+	
+	
+	
+	
+<div class="box">
+<img src="./img2.jpg" alt="">
+<div class="layer">
+<i id="right" class="fa-solid fa-ticket"></i>
+<h1>My Service</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, impedit consectetur adipisicing elit. Blanditiis, impedit?</p>
+<a href="" class="ctn">Explore</a>
+</div>
+</div>
+	
+</div>
+</section>
+
+<!-- row-end -->
+
+
+<!-- rows-start -->
+<section class="rows">
+
+<div class="imgbx">
+	<img src="./women1.jpg" alt="">
+</div>
+
+	<div class="main-text">
+		<h1>Hello <span>Im</span></h1>
+		<h2>Mustakin <br>Ul / Ux Desginer</h2>
+		<p>cing elit. Alias perspiciatis minus  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum iure numquam optio mollitia officiis. Impedit eligendi animi quidem totam sunt! Culpa voluptates sed illum eveniet eaque porro eius in. perspiciatis minus repellendus nihil voluptatibus Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit labore neque rem eius quos, iste ratione facilis laborum quas, a sequi culpa. Aliquam repellendus laborum numquam nostrum dolorem pariatur. autem.</p>
+		<a href="" class="ctn">Explore</a>
+	</div>
+
+</section>
+
+
+<!-- rows-end -->
+
+<!--clock-start  -->
+<section class="clock">
+
+	<div class="clocks">
+		<h1>Contact me</h1>
+		<h4>if you have any project you mind</h4>
+		<p>Lorem ipsum dolor sit amet  adipisicing  <br> perferendi Lorem ipsum dolor sit amet co laborum? </p>
+		<div class="list">
+		<strong>#03332626590</strong>
+		<strong>hello@contact.com</strong>
+		<strong>like share & subscribe</strong>
+	 </div>
+	<div class="social">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-brands fa-tiktok"></i>
+	</div>
+	</div>
+
+<div class="form-center">
+	<form action="">
+		<input type="text" placeholder="Enter the Name" required><br>
+		<input type="text" placeholder="Enter the Name" required><br>
+		<input type="password" placeholder="Enter the Paasword" required><br>
+		<textarea name="" id="" cols="5" rows="5" placeholder="Enter the Value"></textarea>
+		<a href="" class="ctn">Submit</a>
+	</form>
+</div>
+
+</section>
+
+<!-- clock-end -->
+
+<!-- footer-start -->
+<footer>
+	<div class="footer-text">
+	<h1>@Copy right Tahmid Ahmed 2023</h1>
+</div>
+</footer>
+
+
+
+<!-- footer-end -->
+
+
+
+<!--  -->
+</body>
+</html>
